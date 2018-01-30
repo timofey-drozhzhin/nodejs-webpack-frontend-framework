@@ -1,0 +1,11 @@
+# Exlude Dependency Libraries
+node_modules
+
+# Ignore PHPStorm/Idea config files
+.idea
+
+# Ignore OS system files
+.DS_Store
+
+# Ignore the Distribution Directory
+dist
