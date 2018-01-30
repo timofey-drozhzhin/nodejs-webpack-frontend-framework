@@ -1,0 +1,19 @@
+// Variables
+@import "~bootstrap/scss/variables";
+@import "assets/styles/variables";
+
+// Import Bootstrap Mixins
+@import "~bootstrap/scss/mixins";
+
+// Normalize CSS
+@import "~bootstrap/scss/normalize";
+
+// Style Print Pages
+@import "~bootstrap/scss/print";
+
+// Font-Awesome
+// Adds a collection of icons
+// @see http://fontawesome.io
+@import "~font-awesome/scss/variables";
+@import "~font-awesome/scss/mixins";
+@import "~font-awesome/scss/path";
