@@ -33,7 +33,7 @@ module.exports = {
                 loader: 'css-loader',
             }]
         }, {
-            test: /\.scss$/,
+            test: /\.(scss|sass)$/,
             use: extractSass.extract({
                 fallback: "style-loader",
                 use: 'css-loader?importLoaders=1&sourceMap=true!postcss-loader?sourceMap=true!resolve-url-loader?debug=true&keepQuery=true&sourceMap=true!sass-loader?sourceMap=true'
