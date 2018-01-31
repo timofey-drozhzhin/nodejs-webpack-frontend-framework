@@ -12,8 +12,6 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const extractSass = new ExtractTextPlugin({
     // filename: "[name].[contenthash].css",
     filename: "app.css",
-    // Disable if in development mode
-    disable: is_dev
 });
 
 const autoprefixer = require('autoprefixer');
