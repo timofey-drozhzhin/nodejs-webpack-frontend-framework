@@ -15,20 +15,20 @@ Download Dependencies
 yarn install | npm install
 ```
 
-## List of Commands
-### Compile code once.
+# List of Commands
+Compile code once.
 ```
 yarn build-dev | npm build-dev
 yarn build | npm build
 ```
 
-### Start watcher. Re-compiles code on any change.
+Start watcher. Re-compiles code on any change.
 ```
 yarn watch-dev | npm watch-dev
 yarn watch | npm watch
 ```
 
-## Directory Structure
+# Directory Structure
 - /dist - Generated files - The stuff that you need for the website 
 - /examples - HTML examples, can be used as UI templates 
 - /node_modules - Node dependency libraries
