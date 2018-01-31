@@ -1,25 +1,43 @@
 <html>
 <head>
-    <title>Article Style Examples</title>
-    <link rel="stylesheet" href="../dist/app.css" >
+  <title>Article Style Examples</title>
+  <link rel="stylesheet" href="../dist/app.css">
 </head>
-<body>
-<article>
-    <h1>Header 1 within an Article Tag</h1>
-    <p>This is what a paragraph should look like within an article.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras neque mauris, efficitur in tortor in, venenatis tempus nunc. Vivamus ut egestas velit. Morbi blandit pharetra ultricies. Ut nec efficitur libero, et tincidunt massa. Nam imperdiet lorem sit amet dolor consequat, quis gravida mi dignissim. Vestibulum quis ornare diam. Cras sagittis enim eu euismod hendrerit. Mauris varius at mi vel pretium. In ac cursus nulla. Suspendisse vitae commodo erat.</p>
-    <h2>Header 2</h2>
-    <p>The HTML element for the first level heading of a web document. This should be relevant to search</p>
-    <ul>
-        <li>Default Unordered List Item</li>
-        <li>Default Unordered List Item</li>
-        <li>Default Unordered List Item</li>
+<body class="article">
+  <header id="header">
+    <div class="logo">
+      <div class="responsive-height"></div>
+    </div>
+    <ul class="nav">
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
     </ul>
-    <p>This is what a default  following unordered list should be </p>
-    <ol>
+  </header>
+  <div id="content">
+    <article>
+      <h1>Header 1 within an Article Tag</h1>
+      <p>This is what a paragraph should look like within an article. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras neque mauris, efficitur in tortor in, venenatis tempus nunc. Vivamus ut egestas velit. Morbi blandit pharetra ultricies. Ut nec efficitur libero, et tincidunt massa. Nam imperdiet lorem sit amet dolor consequat, quis gravida mi dignissim. Vestibulum quis ornare diam. Cras sagittis enim eu euismod hendrerit. Mauris varius at mi vel pretium. In ac cursus nulla. Suspendisse vitae commodo erat.</p>
+      <h2>Header 2</h2>
+      <p>The HTML element for the first level heading of a web document. This should be relevant to search</p>
+      <ul>
+        <li>Default Unordered List Item</li>
+        <li>Default Unordered List Item</li>
+        <li>Default Unordered List Item</li>
+      </ul>
+      <p>This is what a default following unordered list should be </p>
+      <ol>
         <li>Default Ordered List Item</li>
         <li>Default Ordered List Item</li>
         <li>Default Ordered List Item</li>
-    </ol>
-</article>
+      </ol>
+      <div class="info">
+        By
+        <address href="#" rel="author">Timofey Drozhzhin</address>
+        on
+        <time datetime="2018-1-30">Jan 30, 2018</time>
+      </div>
+    </article>
+  </div>
 </body>
 </html>

@@ -1,19 +1,60 @@
-// Variables
+/* Modules */
+// Load Bootstrap default variables
 @import "~bootstrap/scss/variables";
-@import "assets/styles/variables";
-
 // Import Bootstrap Mixins
 @import "~bootstrap/scss/mixins";
-
 // Normalize CSS
 @import "~bootstrap/scss/normalize";
-
 // Style Print Pages
 @import "~bootstrap/scss/print";
-
 // Font-Awesome
 // Adds a collection of icons
 // @see http://fontawesome.io
+$fa-font-path: '~font-awesome/fonts';
 @import "~font-awesome/scss/variables";
 @import "~font-awesome/scss/mixins";
 @import "~font-awesome/scss/path";
+
+/* Variables */
+
+// Colors
+$text: #303030;
+
+// Grid
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px,
+);
+
+// Media
+@mixin sm {
+  @media (min-width: #{map-get($grid-breakpoints, 'sm')}) {
+    @content;
+  }
+}
+@mixin md {
+  @media (min-width: #{map-get($grid-breakpoints, 'md')}) {
+    @content;
+  }
+}
+@mixin lg {
+  @media (min-width: #{map-get($grid-breakpoints, 'lg')}) {
+    @content;
+  }
+}
+@mixin xl {
+  @media (min-width: #{map-get($grid-breakpoints, 'xl')}) {
+    @content;
+  }
+}
+
+/* Styles */
+
+// Global
+@import "assets/styles/global";
+
+// Article
+@import "assets/styles/article";

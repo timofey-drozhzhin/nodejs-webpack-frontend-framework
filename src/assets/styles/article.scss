@@ -1,0 +1,17 @@
+#article {
+  #content {
+    font-size: .8em;
+    @include sm {
+      font-size: .85em;
+    }
+    @include md {
+      font-size: .9em;
+    }
+    @include lg {
+      font-size: .95em;
+    }
+    @include xl {
+      font-size: 1em;
+    }
+  }
+}
